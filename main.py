@@ -37,3 +37,13 @@ home_town = {
 }
 
 print(f"I grew up in {home_town['city']}, {home_town['state']} - population: {home_town['pouplation']}")
+
+
+# Exercise 5
+# Iterate over the key: value pairs in home_town and print a string for each item, for example:
+    # "city = Arcadia"
+	# "state = California"
+	# "population = 58000"
+
+for key,val in home_town.items():
+    print(f"{key} = {val}")
