@@ -6,3 +6,12 @@
 students = ['Ashley', 'Bri','Lacie','Andi']
 print(students[1])
 print(students[3])
+
+# Exercise 2
+# Create a tuple named foods containing the same number of foods (strings) as there are names in the studentslist.
+# Use a for loop to print out the string "food goes here is a good food".
+
+foods = 'burger','steak','pasta','sushi'
+
+for food in foods:
+    print(f"{food} is a good food")
