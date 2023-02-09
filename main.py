@@ -59,10 +59,13 @@ for key,val in home_town.items():
 # }
 #Iterate over cohortprinting out each element.
 
-cohort = []
-for idx, students in enumerate(students):
-    cohort.append({
-        'student': students,
-        'fav_food': foods[idx]
-    })
-    print(cohort[idx])
+# cohort = []
+# for idx, students in enumerate(students):
+#     cohort.append({
+#         'student': students,
+#         'fav_food': foods[idx]
+#     })
+#     print(cohort[idx])
+
+awesome_students = [student + ' is awesome!' for student in students]
+print(awesome_students)
