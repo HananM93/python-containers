@@ -67,5 +67,20 @@ for key,val in home_town.items():
 #     })
 #     print(cohort[idx])
 
+
+# Exercise 7
+# Using the list of students and list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
+# ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+# Iterate over awesome_students printing out each string
+
 awesome_students = [student + ' is awesome!' for student in students]
 print(awesome_students)
+
+
+# Exercise 8
+# Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a.
+
+foods = 'burger','steak','pasta','sushi'
+
+food = [letter for letter in foods if 'a' in letter]
+print(food)
